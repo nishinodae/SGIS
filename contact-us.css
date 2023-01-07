@@ -117,7 +117,7 @@ header .fa-bars{
 }
 
 .location{
-    /* width: 80%; */
+    width: auto;
     margin: auto;
     text-align: center;
     padding: 80px;
