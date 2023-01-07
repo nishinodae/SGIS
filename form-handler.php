@@ -1,27 +1,31 @@
-<?php 
-// $name = echo $_POST['name'];
-// $visitor_email = echo $_POST['email'];
-// $subject = echo $_POST['subject'];
-// $message = echo $_POST['message'];
+<!-- <?php
+if (isset($_POST['btn-send'])){
+    echo '<script>alert("Thank you for your message.\nYou will receive a reply soon")</script>'; 
+}
+?> -->
 
-// $email_from = 'https://nishinodae.github.io/SGIS/';
+<!-- <?php 
+$name = echo $_POST['name'];
+$visitor_email = echo $_POST['email'];
+$subject = echo $_POST['subject'];
+$message = echo $_POST['message'];
 
-// $email_subject = 'New Form Submission';
+$email_from = 'https://nishinodae.github.io/SGIS/';
 
-// $email_body = "User Name: $name.\n".
-//               "User Email: $visitor_email.\n".
-//               "Subject: $subject.\n".
-//               "User Email: $message.\n";
+$email_subject = 'New Form Submission';
 
-// $to = 'jiesyukri12@gmail.com';
+$email_body = "User Name: $name.\n".
+              "User Email: $visitor_email.\n".
+              "Subject: $subject.\n".
+              "User Email: $message.\n";
 
-// $headers = "From: $email_from \r\n";
+$to = 'jiesyukri12@gmail.com';
 
-// $headers .= "Reply-To: $visitor_email \r\n";
+$headers = "From: $email_from \r\n";
 
-// mail($to,$email_subject,$email_body,$headers);
+$headers .= "Reply-To: $visitor_email \r\n";
 
-// header("Location: contact.html")
-echo '<script>alert("Email sent")</script>';
+mail($to,$email_subject,$email_body,$headers);
 
-?>
+header("Location: contact.html")
+?>  -->
