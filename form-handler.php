@@ -1,8 +1,8 @@
-<?php
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+<?php 
+$name = echo $_POST['name'];
+$visitor_email = echo $_POST['email'];
+$subject = echo $_POST['subject'];
+$message = echo $_POST['message'];
 
 $email_from = 'https://nishinodae.github.io/SGIS/';
 
