@@ -227,7 +227,7 @@ header .fa-bars{
 }
 .workplace-col img{
 	width: 100%;
-    height: 95%;
+    height: 100%;
 	display: block;
 }
 .layer{
@@ -239,9 +239,7 @@ header .fa-bars{
 	left: 0;
 	transition:0.5s;
 }
-.layer:hover{
-	background: rgba(35, 168, 93, 0.7);
-}
+
 .layer h3{
 	width: 100%;
 	font-weight: 500;
@@ -255,7 +253,21 @@ header .fa-bars{
 	opacity:0;
 	transition: 0.5s;
 }
+
+.layer:hover{
+	background: rgba(35, 168, 93, 0.7);
+}
+
 .layer:hover h3{
+	bottom: 49%;
+	opacity: 1;
+}
+
+.layer:focus{
+	background: rgba(35, 168, 93, 0.7);
+}
+
+.layer:focus h3{
 	bottom: 49%;
 	opacity: 1;
 }
@@ -423,15 +435,6 @@ header .fa-bars{
         padding:1rem 50px;
         background-size: cover;
 
-    }
-
-    .layer:hover{
-        background: rgba(35, 168, 93, 0.7);
-    }
-
-    .layer:hover h3{
-        bottom: 49%;
-        opacity: 1;
     }
 
 }
