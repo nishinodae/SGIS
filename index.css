@@ -420,8 +420,9 @@ header .fa-bars{
     }
 
     .home{
-        background-position: left;
         padding:1rem 50px;
+        background-size: cover;
+
     }
 
 }

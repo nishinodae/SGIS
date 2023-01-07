@@ -250,8 +250,8 @@ header .fa-bars{
     }
 
     .upper-part{
-        background-position: left;
         padding:1rem 50px;
+        background-size: cover;
     }
 
 }
