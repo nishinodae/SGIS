@@ -146,8 +146,10 @@ header .fa-bars{
     margin-right: 30px;
   }
   .contact-col div p{
-  
+    font-size: 1.5rem;
+    color:#999;
     padding: 0;
+    line-height: 1.5;
   }
   .contact-col div h5{
   
