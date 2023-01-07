@@ -84,14 +84,23 @@
         
               </div>
               <div class="contact-col">
-        
-                <form action="formhandler.php" method="post">
+                <form method="post">
+                <!-- <form action="formhandler.php" method="post"> -->
                   <input type="text" name="name" placeholder="Enter your name" required="">
                   <input type="email" name="email" placeholder="Enter email address" required="">
                   <input type="text" name="subject" placeholder="Enter your subject" required="">
                   <textarea rows="8" name="message" placeholder="Message" required=""></textarea>
-                  <button type="submit" class="hero-btn green-btn">Send Message</button>
+                  <!-- <button type="submit" ONCLICK="alert('Thank you for your message.\nYou will receive a reply soon')" class="hero-btn green-btn">Send Message</button> -->
+                  <button type="submit" class="hero-btn green-btn" name="btn-send">Send Message</button> 
+                    
                 </form>
+
+                <?php
+                if(isset($_POST['btn-send'])) {
+                  echo "Thank you for your message.\nYou will receive a reply soon";
+                  "alert('Thank you for your message.\nYou will receive a reply soon')"                
+                }     
+                ?>
         
               </div>
             </div>
