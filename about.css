@@ -140,16 +140,11 @@ header .fa-bars{
 }
 
 
-.about .content{
-    flex:1 1 40rem;
-}
-
-
 .about .content p{
     font-size: 1.5rem;
     color:#999;
-    padding:.5rem 100px;
-    padding-top: 1rem;
+    margin: 20px 50px;
+    /* padding-top: 1rem; */
     line-height: 1.5;
 }
 
