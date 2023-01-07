@@ -232,7 +232,7 @@ header .fa-bars{
 }
 .layer{
 	background: transparent;
-	height: 95%;
+	height: 100%;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -423,6 +423,15 @@ header .fa-bars{
         padding:1rem 50px;
         background-size: cover;
 
+    }
+
+    .layer:hover{
+        background: rgba(35, 168, 93, 0.7);
+    }
+
+    .layer:hover h3{
+        bottom: 49%;
+        opacity: 1;
     }
 
 }
